@@ -1,0 +1,33 @@
+section{
+	background: aqua;
+	border: 1px solid green;
+}
+.nav-wide{
+	background: bisque;
+	display: none;
+}
+.nav-narrow{
+	background: bisque;
+	position: relative;
+	top: 20px;
+	width: 100%;
+}
+.text{
+	background: darkgray;
+	position: relative;
+	margin-top: 40px;
+}
+@media screen and (min-width: 800px) {
+	.text{
+		margin-left: 400px;
+		margin-top: 0px;
+	}
+	.nav-narrow{
+		display: none;
+	}
+	.nav-wide{
+		display: block;
+		float: left;
+		width: 400px;
+	}
+}

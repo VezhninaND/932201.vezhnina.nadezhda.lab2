@@ -1,0 +1,47 @@
+*{
+	color: white;
+}
+.d1{
+	background: blueviolet;
+	position: static;
+	width: 150px;
+	height: 100px;
+}
+.d2{
+	background: darkred;
+	position: relative;
+	width: 150px;
+	height: 100px;
+}
+.d3{
+	background: peru;
+	position: relative;
+	left: 30px;
+	bottom: 30px;
+	width: 150px;
+	height: 100px;
+}
+.d4{
+	background: indianred;
+	width: 600px;
+	height: 400px;
+	position: relative;
+	z-index: 1;
+}
+.d5{
+	background: indigo;
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	right: 0px;
+	bottom: 75px;
+}
+.d6{
+	background: forestgreen;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	height: 100px;
+	width: 100px;
+	z-index: 0;
+}

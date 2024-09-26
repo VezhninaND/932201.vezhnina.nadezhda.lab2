@@ -1,0 +1,47 @@
+body{
+	margin: 0px;
+	overflow-x: hidden;
+}
+section.s1{
+	background: aqua;
+	margin: 8px;
+	z-index: 0;
+	border: solid green 1px;
+}
+.hidden-text{
+	margin-right:410px;
+	visibility: hidden;
+}
+section.s2{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	top: 9px;
+	left: 9px;
+}
+.nav{
+	background: bisque;
+	width: 400px;
+	height: 90px;
+	float: left;
+}
+.content{
+	background: darkgray;
+	position: absolute;
+	right: 23px;
+	left: 405px;
+}
+@media screen and (max-width: 800px) {
+	.content{
+		left: 0px;
+		top: 90px;
+		width: 75%;
+	}
+	.hidden-text{
+		width: 75%;
+		margin-top: 90px;
+	}
+	.nav{
+		width: 150px;
+	}
+}

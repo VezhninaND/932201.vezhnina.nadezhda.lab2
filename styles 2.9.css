@@ -1,0 +1,11 @@
+section{
+	background: blue;
+	color: white;
+	width: 600px;
+	margin: auto;
+}
+.image{
+	float: right;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}

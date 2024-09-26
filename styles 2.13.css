@@ -1,0 +1,23 @@
+section{
+	background: aqua;
+	border: 1px solid green;
+}
+.nav{
+	background: bisque;
+	width: 400px;
+	position: absolute;
+	top: 9px;
+}
+.text{
+	background: darkgray;
+	position: relative;
+	left: 400px;
+	margin-right: 400px;
+}
+img{
+	float: right;
+	width: 40%;
+}
+.p2{
+	clear: right;
+}

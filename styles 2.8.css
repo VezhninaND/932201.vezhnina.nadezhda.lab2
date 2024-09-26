@@ -1,0 +1,40 @@
+body{
+	overflow-x: hidden;
+	margin: 0px;
+}
+section.s1{
+	background: aqua;
+	margin: 8px;
+	z-index: 0;
+}
+.hidden-text{
+	margin-right:200px;
+	visibility: hidden;
+}
+section.s2{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	top: 8px;
+	left: 8px;
+}
+.nav{
+	background: bisque;
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+.content{
+	background: darkgray;
+	position: absolute;
+	right: 16px;
+	left: 200px;
+}
+footer{
+	background:limegreen;
+	position: fixed;
+	bottom: 0px;
+	height: 60px;
+	width: 100%;
+	z-index: 2;
+}

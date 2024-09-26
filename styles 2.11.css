@@ -1,0 +1,17 @@
+div.box{
+	background-color: aqua;
+	border: solid 1px green;
+	height: 300px;
+	position: relative;
+}
+.content{
+	padding-right: 10px;
+}
+img{
+	height: 300px;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	float: right;
+	clear: both;
+}
